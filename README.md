@@ -1,4 +1,4 @@
-This repo contains all the files necessary to run a personal, exploratory project on Time-Series Analysis and Machine Learning.
+# Contains all the files necessary to run a personal, exploratory project on Time-Series Modeling and Machine Learning.
 
 gh_timeseries_project.ipynb :
   
