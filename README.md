@@ -42,4 +42,4 @@ PJME_hourly.csv :
 
 ## Results:
 I was able to model hourly energy consumption from 2002-2018 with Root Mean Squared Error (RMSE) of 3457 mW on a scale of 20000 to 60000 mW.
-Additionally, I was able to forecast an additional full year of data from 2018-08 to 2019-08, and save the model for future use or adjustment.
+Additionally, I was able to forecast a full year's worth of hourly data from 2018-08 to 2019-08, and save the model for future use or adjustment.
