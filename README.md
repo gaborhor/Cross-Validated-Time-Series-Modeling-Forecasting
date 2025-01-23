@@ -18,6 +18,7 @@ PJME_hourly.csv :
   Output directory for all assets produced by 'gh_timeseries_project.ipynb', directly uploaded for convenience. The python code lightly handles redundant file generation should you choose to run the repo contents locally.
 
 ## Data Glossary:
+![image](https://github.com/user-attachments/assets/0fb52b27-2721-4862-84f0-3bc40ca762c5)
 
 Target Feature:
   * ['PJME_MW'] - Energy consumption in 'mW' - TARGET FEATURE FOR MODELING
@@ -45,5 +46,10 @@ __Engineered Lag Features:__
 * 'os', 'shutil' - local device model and visualization storage
 
 ## __Results:__
+Engineered Lag Features were determined to be highly important factors in our model's ability to reduce error.
+![image](https://github.com/user-attachments/assets/1a201787-a853-4827-aa9f-243d05bfcd07)
+
 I was able to model hourly energy consumption from 2002-2018 with Root Mean Squared Error (RMSE) of 3457 mW for predictions on a scale of 20000 to 60000 mW.
 Additionally, I was able to forecast a full year's worth of hourly data from 2018-08 to 2019-08, and save the model for future use or adjustment.
+![image](https://github.com/user-attachments/assets/77dc453c-473a-4676-b9d7-f57b4d1c7b90)
+
