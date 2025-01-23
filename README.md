@@ -46,7 +46,7 @@ __Engineered Lag Features:__
 * 'os', 'shutil' - local device model and visualization storage
 
 ## __Results:__
-Engineered Lag Features were determined to be highly important factors in our model's ability to reduce error.
+Engineered Lag Features were determined to be highly important factors in our model's ability to reduce error, followed by Hour of Day and Day of Year.
 ![image](https://github.com/user-attachments/assets/1a201787-a853-4827-aa9f-243d05bfcd07)
 
 I was able to model hourly energy consumption from 2002-2018 with Root Mean Squared Error (RMSE) of 3457 mW for predictions on a scale of 20000 to 60000 mW.
